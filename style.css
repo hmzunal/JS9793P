@@ -1,0 +1,25 @@
+body{background-image: url("./assets/back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+section{ min-height: 100vh;}
+.focus-body{margin-top: 100px;}
+h1{font-size: 60px; font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+p{font-size: 25px;}
+p span{font-size: 30px; font-weight: bold; color:cadetblue;}
+
+audio{display: none;}
+
+#count-button{background-color: transparent; color: wheat; padding:10px; margin-bottom: 10px; border-radius: 10px;}
+i{font-size: 30px; margin: 10px 10px;}
+
+/* input[type="range"] {
+    background: linear-gradient(to right, #32043b 0%, #82CFD0 50%, #fff 50%, #fff 100%);
+} */
